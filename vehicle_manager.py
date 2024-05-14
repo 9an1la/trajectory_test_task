@@ -1,6 +1,4 @@
 from math import sin, cos, sqrt, radians, atan2
-from decimal import Decimal as D
-
 import requests
 
 
