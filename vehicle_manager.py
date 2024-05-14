@@ -30,7 +30,6 @@ class VehicleManager:
         return [self.create_vehicle_from_data(vehicle_data) for vehicle_data in vehicles_data]
 
     def filter_vehicles(self, params):
-        id = params.get('id')
         all_vehicles = self.get_vehicles()
         res = []
 
